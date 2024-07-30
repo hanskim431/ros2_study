@@ -13,12 +13,12 @@ public:AddressBookPublisher(): Node("address_book_publisher") {
     auto publish_msg = [this]() -> void {
         auto message = more_interfaces::msg::AddressBook();
 
-        '''
+        /*
         ROS 2 빌드 시스템 (예: colcon build)은 이 .msg 파일을 읽고, 해당하는 C++ 코드를 생성합니다. 
         이 과정에서 메시지 타입에 대한 생성자, 접근자, 기타 유틸리티 함수가 자동으로 생성됩니다. 
         결과적으로, AddressBook 타입은 C++에서 사용할 수 있는 클래스가 되며, 
         이를 인스턴스화하기 위해 AddressBook() 생성자를 사용할 수 있게 됩니다.
-        '''
+        */
 
         message.first_name = "John";
         message.last_name = "Doe";
