@@ -3,7 +3,7 @@
 <package format="3">
   <name>cpp_parameters</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>cpp parameter tutorial</description>
   <maintainer email="fogy431@gmail.com">hans</maintainer>
   <license>Apache-2.0</license>
 
