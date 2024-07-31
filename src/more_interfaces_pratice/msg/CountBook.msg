@@ -1,0 +1,4 @@
+string first_name
+string last_name
+string phone_number
+uint8 count_number
